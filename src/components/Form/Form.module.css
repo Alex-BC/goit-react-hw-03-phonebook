@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  height: 90px;
+}
+
+.label {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.input {
+  margin-left: 10px;
+}
+
+.button {
+  width: 100px;
+}

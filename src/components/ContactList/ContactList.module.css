@@ -1,0 +1,27 @@
+.list {
+  width: 320px;
+}
+
+.item {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.text {
+  padding: 0;
+  margin: 0;
+}
+
+.span {
+  flex-grow: 1;
+}
+
+.button {
+  margin-left: 10px;
+  width: 80px;
+}
